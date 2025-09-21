@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конфигуратор шкафа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Конфигуратор шкафа</h1>
+        
+        <!-- Превью шкафа -->
+        <div class="preview">
+            <img src="img/wardrobe.png" alt="Шкаф">
+        </div>
+
+        <!-- Верхний блок размеров -->
+        <div class="dimensions-wrapper">
+            <div class="dimension-section">
+                <div class="dimension-label">Длина, мм</div>
+                <button class="dimension-btn">Выберите ▼</button>
+                <div class="dimension-options">
+                    <div>1600 мм</div>
+                    <div>1700 мм</div>
+                    <div>1800 мм</div>
+                    <div>1900 мм</div>
+                    <div>2000 мм</div>
+                    <div>2100 мм</div>
+                    <div>2200 мм</div>
+                </div>
+            </div>
+
+            <div class="dimension-section">
+                <div class="dimension-label">Высота, мм</div>
+                <button class="dimension-btn">Выберите ▼</button>
+                <div class="dimension-options">
+                    <div>2300 мм</div>
+                    <div>2400 мм</div>
+                    <div>2500 мм</div>
+                    <div>2600 мм</div>
+                    <div>2700 мм</div>
+                    <div>2800 мм</div>
+                    <div>2900 мм</div>
+                    <div>3000 мм</div>
+                    <div>3100 мм</div>
+                </div>
+            </div>
+
+            <div class="dimension-section">
+                <div class="dimension-label">Глубина, мм</div>
+                <button class="dimension-btn">Выберите ▼</button>
+                <div class="dimension-options">
+                    <div>400 мм</div>
+                    <div>450 мм</div>
+                    <div>500 мм</div>
+                    <div>550 мм</div>
+                    <div>600 мм</div>
+                    <div>650 мм</div>
+                    <div>700 мм</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Нижние параметры -->
+        <div class="options-grid">
+            <div class="custom-select">
+                <span>Цвет корпуса</span>
+                <span class="icon">▼</span>
+                <div class="custom-options">
+                    <div>Белый</div>
+                    <div>Серый</div>
+                    <div>Черный</div>
+                </div>
+            </div>
+
+            <div class="custom-select">
+                <span>Цвет фасада</span>
+                <span class="icon">▼</span>
+                <div class="custom-options">
+                    <div>Белый</div>
+                    <div>Светло-серый</div>
+                    <div>Дерево</div>
+                </div>
+            </div>
+
+            <div class="custom-select">
+                <span>Вариант наполнения</span>
+                <span class="icon">▼</span>
+                <div class="custom-options">
+                    <div>Стандарт</div>
+                    <div>Максимальный</div>
+                </div>
+            </div>
+
+            <div class="custom-select">
+                <span>Прочие опции</span>
+                <span class="icon">▼</span>
+                <div class="custom-options">
+                    <div>Антресоль</div>
+                    <div>Ящики 2 шт.</div>
+                </div>
+            </div>
+        </div>
+
+        <button id="addToCart">В корзину</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
